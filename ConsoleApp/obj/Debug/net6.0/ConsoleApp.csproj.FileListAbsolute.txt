@@ -1,0 +1,14 @@
+D:\Github\c-sharp\ConsoleApp\bin\Debug\net6.0\ConsoleApp.exe
+D:\Github\c-sharp\ConsoleApp\bin\Debug\net6.0\ConsoleApp.deps.json
+D:\Github\c-sharp\ConsoleApp\bin\Debug\net6.0\ConsoleApp.runtimeconfig.json
+D:\Github\c-sharp\ConsoleApp\bin\Debug\net6.0\ConsoleApp.dll
+D:\Github\c-sharp\ConsoleApp\bin\Debug\net6.0\ConsoleApp.pdb
+D:\Github\c-sharp\ConsoleApp\obj\Debug\net6.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\c-sharp\ConsoleApp\obj\Debug\net6.0\ConsoleApp.AssemblyInfoInputs.cache
+D:\Github\c-sharp\ConsoleApp\obj\Debug\net6.0\ConsoleApp.AssemblyInfo.cs
+D:\Github\c-sharp\ConsoleApp\obj\Debug\net6.0\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Github\c-sharp\ConsoleApp\obj\Debug\net6.0\ConsoleApp.dll
+D:\Github\c-sharp\ConsoleApp\obj\Debug\net6.0\refint\ConsoleApp.dll
+D:\Github\c-sharp\ConsoleApp\obj\Debug\net6.0\ConsoleApp.pdb
+D:\Github\c-sharp\ConsoleApp\obj\Debug\net6.0\ConsoleApp.genruntimeconfig.cache
+D:\Github\c-sharp\ConsoleApp\obj\Debug\net6.0\ref\ConsoleApp.dll
