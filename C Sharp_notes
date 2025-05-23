@@ -1,0 +1,230 @@
+C Sharp 
+-------
+
+Syntax
+- using System
+Can use classes from the System namespace
+
+- namespace
+Code organizaiton, container for classes
+
+- class 
+Container for data & methods 
+
+- Main method 
+
+
+Outputs
+- Console.WriteLine('My output');
+Can output mathematical calculations
+- Console.WriteLine(5+5);
+
+
+Comments 
+// Single Line
+
+/*
+	Multi line
+*/
+
+
+Variables 
+- int
+- double 
+- char
+- string
+- bool 
+
+type varName = value;
+	int myNum = 5;
+	double myDoubleNum = 5.99D;
+	char myLetter = 'D';
+	bool myBool = true;
+	string myText = "Hello";
+
+	Arrays
+		string[] myValues = {"value1","value2"};
+		Array.Sort(myValues); // alphabetically / asc
+	Two-Dimensional 
+		int [,] myNums = {{1,4}, {5,7}};
+		- Adding more commas adds more dimensions
+
+Constants 
+- const varName = value;
+Unchangeable and read-only
+
+Concatination 
+	string myText = "Lets add to the end, ";
+	Console.WriteLine(myText + "more data on the end");
+
+Multiple Variables of the same type
+- int num1 = 5, num2 = 10, num3 = 15;
+
+Casting 
+- Manual Casting
+	double exampleCasting = 9.99;
+	int intCasting = (int) exampleCasting;
+
+Type Conversion 
+	Convert.ToString(myInt);    // convert int to string
+	Convert.ToDouble(myInt);    // convert int to double
+	Convert.ToInt32(myDouble);  // convert double to int
+	Convert.ToString(myBool);   // convert bool to string
+
+User Input 
+	Console.WriteLine("Enter your name:");
+	int name = Convert.ToInt32(Console.ReadLine());
+	Console.WriteLine("Hello, " + name);
+
+Math 
+	Math.Max()
+	Math.Min()
+	Math.Round()
+	Math.Sqrt()
+	Math.Abs()  // Absolute positive value
+
+String Methods
+	string testingString = "Coding fun example";
+	testingString.ToUpper();
+	testingString.ToLower();
+	testingString.length();
+
+	string test2 = ", add to end.";
+	string fullTest = string.Concat(testingString, test2);
+	string fullTest = $"{testingString} {test2}";
+
+Index of Strings
+	string test = "example string";
+	char testing = test[0] // Sets to e in this example
+	int myIndex = test.IndexOf("s"); // Sets to first instance 8
+	string secondWord = test.Substring(myIndex); // "string"
+
+Special Chars 
+	\'  for single quote '
+	\"  for double quote "
+	\\ for backslash \
+	string special = "My uncle says, \"Always look both ways!\".";
+
+Booleans 
+	Returns values of (True/False)
+
+
+Conditional Statements
+	if, else, else if, switch
+	- if(condition){//code};
+	- if(condition){//code}else if(condition2){//code}else{//code};
+
+	Ternary Operator
+	- variable = (condition) ? expressionTrue :  expressionFalse;
+
+	Switch Statements
+	- One time evaluation
+	- Expression value compared with each case value
+	- For matches execute block of code
+	- Break & Default keywords 
+		Break causes exiting of switch block
+		- Break when match is found and the switch's job is done
+		Default optional and will run when no case match found
+
+	switch(expression){
+		case x:
+			//code
+			break;
+		case y: 
+			//code
+			break;
+		default:
+			//code
+			break;
+	}
+
+	While Loops
+	- while(condition){//code}
+
+	Do/While
+	- Executes once before evaluation of condition
+	- do{//code} while {condition}
+
+	For Loops
+	- for(int i=0: i < 10: i++){//code}
+
+	Foreach Loops
+	- foreach(type varName in arrayName){//code}
+		string[] names = {"Jess", "Bill", "Jack", "Jake"};
+		foreach(string name in names){//code}
+
+	Continue 
+		- Breaks one iteration in the loop 
+
+
+Methods 
+
+
+
+
+
+
+
+
+
+
+Principles of Object Oriented Programming
+-----------------------------------------
+* 4 Major Principles 
+	- Encapsulation
+	- Data Abstraction
+	- Polymorphism
+	- Inheritance 
+
+
+Encapsulation 
+-------------
+(Private instance variable & public accessor methods)
+- Mechanism of hiding data implementation by restricting access to public methods 
+- Instance variables are kept private
+- Accessor methods are public
+- Hiding the internal state and functionality of an object
+- Only allowing access through a public set of functions 
+
+public class Example {
+	private String name;
+	private  Int secretNumber;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Int getSecretNumber() {
+		return secretNumber;
+	} 
+
+	public void setSecretNumber(Int secretNumber){
+		this.secretNumber = secretNumber;
+	}
+}
+
+
+Abstraction
+-----------
+- Concept which is not associated with any particular instance 
+- One class should not know the inner details of another in order to use it, just knowing the interfaces
+- Relevant attributes & interactions of entities as classes to define an abstract representation of a system 
+
+
+Inheritance
+-----------
+- Expresses (is-a &/Or has-a) relationship
+- Allows reuse code of existing super classes
+- Ability to create a new abstraction based on existing abstraction
+
+
+Polymorphism
+------------
+- One name many forms
+- Static is achieved using method overloading
+- Dynamic is achieved using method overriding
+- Ability to implement inherited properties or methods in different ways across abstractions
