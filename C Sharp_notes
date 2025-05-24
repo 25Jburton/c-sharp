@@ -157,11 +157,34 @@ Conditional Statements
 		- Breaks one iteration in the loop 
 
 
-Methods 
+Methods aka functions
+	Syntax 
+	static void NameMethod(string testing){}
+	- NameMethod(params)
+	- static // method belongs to the program class
+	- void // Method does not have a return value
+	- dataType // Return type
+	static int NameMethod(int x){}
 
+	Overloading
+	- Multiple methods with same name but different parameters
+	static int NameMethod(int x){}
+	static float NameMethod(float x){}
 
+Classes
+	- Template for objects, objects are instances of a class
+	class sports 
+	objects hockey, soccer, football, ect...
+	- dot syntax to access class attributes
+	
+	class MyClassName {
+		string myAttribute = "value";
 
-
+		static void Main(string[] args){
+			MyClassName myObj = new MyClassName();
+			Console.WriteLine(myObj.myAttribute); 
+		}
+	}
 
 
 
